@@ -1,0 +1,5 @@
+c:\users\ryunotsuki\documents\visual studio 2012\Projects\PixelRunner\PixelRunner\bin\Debug\PixelRunner.dll
+c:\users\ryunotsuki\documents\visual studio 2012\Projects\PixelRunner\PixelRunner\bin\Debug\PixelRunner.pdb
+c:\users\ryunotsuki\documents\visual studio 2012\Projects\PixelRunner\PixelRunner\obj\Debug\PixelRunner.csprojResolveAssemblyReference.cache
+c:\users\ryunotsuki\documents\visual studio 2012\Projects\PixelRunner\PixelRunner\obj\Debug\PixelRunner.dll
+c:\users\ryunotsuki\documents\visual studio 2012\Projects\PixelRunner\PixelRunner\obj\Debug\PixelRunner.pdb
