@@ -2,7 +2,6 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
-using System.Runtime.InteropServices;
 using System.Runtime.Serialization.Formatters.Binary;
 
 namespace PixelRunner
@@ -12,6 +11,10 @@ namespace PixelRunner
         public static float Valor { get; set; }
         public static float ValorAnterior { get; set; }
         public static Image CompressImage(Image pbImage)
+        {        
+            unsafe
+            {
+                var processedBitmap = new Bitmap(pbImage);
                 GetSize(processedBitmap,ValorAnterior);
                 var bitmapData = processedBitmap.LockBits(new Rectangle(0, 0, processedBitmap.Width, processedBitmap.Height), ImageLockMode.ReadWrite, processedBitmap.PixelFormat);
                 var widthInBytes = bitmapData.Width * (Image.GetPixelFormatSize(processedBitmap.PixelFormat) / 8);
